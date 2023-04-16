@@ -1,0 +1,15 @@
+How to handle large user traffic into their application.How would they scale the application?
+
+1. Design for Scalability: Scalability should be a consideration from the start of the application design process. A modular and flexible architecture that can easily adapt to changing needs will be easier to scale.
+
+2. Use microservices architecture: Microservices architecture can provide a more scalable solution by breaking down the application into smaller, independent components. Each component can then be scaled independently as needed.
+
+3. Plan for sudden spikes in traffic: Some applications experience sudden spikes in traffic, such as during a sale or event. Planning for these spikes in advance, by provisioning additional resources or scaling up the infrastructure, can help to avoid downtime or performance issues.
+
+4. Test for scalability: It's important to test the application under various load conditions to ensure that it can handle the expected traffic. This can include load testing, stress testing, and performance testing.
+
+5. Use autoscaling: Autoscaling allows the application to automatically adjust the number of resources based on demand. This can help to ensure that the application can handle traffic spikes and minimize downtime. 
+
+6. Implement disaster recovery strategies: Having a disaster recovery strategy in place can help to minimize downtime and data loss in the event of an outage or disaster. This can include backup and recovery processes, replication of data across multiple servers, and the use of redundant systems.
+
+By taking into account these real-time scenarios and implementing suitable strategies and techniques, an application can be scaled proficiently to handle the demands of a growing user base while reducing the risk of downtime and performance issues.
